@@ -16,4 +16,12 @@ RUN \
 RUN \
   /tmp/microsoft-r-open/install.sh -a -u
 
+RUN \
+  yum install -y  java-1.8.0-openjdk-headless \
+                  gcc \
+                  gcc-c++  \
+                  texlive-collection-latexrecommended \
+                  zip
+
+
 CMD "/bin/bash"
