@@ -17,7 +17,7 @@ RUN \
   /tmp/microsoft-r-open/install.sh -a -u
 
 RUN \
-  yum groupinstall 'Development Tools'
+  yum groupinstall -y 'Development Tools'
 
 RUN \
   yum install -y  java-1.8.0-openjdk-headless \
