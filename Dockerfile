@@ -10,7 +10,7 @@ RUN \
 # Get Microsoft R Open
 RUN \
   cd /tmp/ && \
-  wget https://mran.microsoft.com/install/mro/3.3.2/microsoft-r-open-3.3.2.tar.gz \
+  wget https://mran.microsoft.com/install/mro/3.3.2/microsoft-r-open-3.3.2.tar.gz && \
   tar -xvzf microsoft-r-open-3.3.2.tar.gz
   
 RUN \
